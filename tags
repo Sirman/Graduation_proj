@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AFN	dataGather.h	/^enum AFN{$/;"	g
+CERTIFICATE	dataGather.h	/^    CERTIFICATE=0X06,$/;"	e	enum:AFN
+CONFIRM	dataGather.h	/^    CONFIRM=0X00,$/;"	e	enum:AFN
+CONTROL	dataGather.h	/^    CONTROL=0X05,$/;"	e	enum:AFN
+DA	dataGather.h	/^    unsigned short DA;$/;"	m	struct:__anon2
+DATA_FORWARD	dataGather.h	/^    DATA_FORWARD=0X10,$/;"	e	enum:AFN
+DT	dataGather.h	/^    unsigned short DT;$/;"	m	struct:__anon2
+END	dataGather.h	2;"	d
+FILE_TRANSFER	dataGather.h	/^    FILE_TRANSFER=0X0F,$/;"	e	enum:AFN
+Head	dataGather.h	/^}Head;$/;"	t	typeref:struct:__anon1
+LINKTEST	dataGather.h	/^    LINKTEST=0X02,$/;"	e	enum:AFN
+Message	dataGather.h	/^}Message;$/;"	t	typeref:struct:__anon2
+QUERY	dataGather.h	/^    QUERY=0X0A,$/;"	e	enum:AFN
+REPT	dataGather.h	/^    REPT=0X03,$/;"	e	enum:AFN
+REQ_CASCADE_RPT	dataGather.h	/^    REQ_CASCADE_RPT=0X08,$/;"	e	enum:AFN
+REQ_ONECLASS_DATA	dataGather.h	/^    REQ_ONECLASS_DATA=0X0C,$/;"	e	enum:AFN
+REQ_SECCLASS_DATA	dataGather.h	/^    REQ_SECCLASS_DATA=0X0D,$/;"	e	enum:AFN
+REQ_TASK_DATA	dataGather.h	/^    REQ_TASK_DATA=0X0B,$/;"	e	enum:AFN
+REQ_TEMINAL_CFG	dataGather.h	/^    REQ_TEMINAL_CFG=0X09,$/;"	e	enum:AFN
+REQ_THIRDCLASS_DATA	dataGather.h	/^    REQ_THIRDCLASS_DATA=0X0E,$/;"	e	enum:AFN
+RESET	dataGather.h	/^    RESET=0X01,$/;"	e	enum:AFN
+SET	dataGather.h	/^    SET=0X04,$/;"	e	enum:AFN
+START	dataGather.h	1;"	d
+addr	dataGather.h	/^    char *addr;$/;"	m	struct:__anon1
+afn	dataGather.h	/^    char afn;$/;"	m	struct:__anon2
+crc	dataGather.h	/^    char crc;$/;"	m	struct:__anon2
+ctl	dataGather.h	/^    char ctl;$/;"	m	struct:__anon2
+data	dataGather.h	/^    char *data;$/;"	m	struct:__anon2
+delay	dataGather.h	/^    char delay;$/;"	m	struct:__anon2
+end	dataGather.h	/^    char end;$/;"	m	struct:__anon2
+head	dataGather.h	/^    Head head;$/;"	m	struct:__anon2
+main	ForeServer.c	/^int main(){$/;"	f
+message_pack	ForeServer.c	/^static void message_pack(Message *msg,char *addr,char ctl,unsigned short da,unsigned dt,char *data,char delay){$/;"	f	file:
+pfc	dataGather.h	/^    char pfc;$/;"	m	struct:__anon2
+seq	dataGather.h	/^    char seq;$/;"	m	struct:__anon2
+start_begin	dataGather.h	/^    char start_begin;$/;"	m	struct:__anon1
+start_end	dataGather.h	/^    char start_end;$/;"	m	struct:__anon1
+tpv	dataGather.h	/^    char *tpv;$/;"	m	struct:__anon2
