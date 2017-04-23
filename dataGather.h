@@ -20,9 +20,10 @@ enum AFN{
     DATA_FORWARD=0X10,
 };
 typedef struct{
-    char start_begin;
-    unsigned char *addr = (unsigned char *)malloc(5);
-    char start_end;
+    unsigned char start_begin;
+    unsigned char *len_pos1;
+    unsigned char *len_pos2;
+    unsigned char start_end;
 }Head;
 typedef struct{
     char second;
@@ -34,6 +35,7 @@ typedef struct {
     Head head;
     unsigned char ctl;
     unsigned char afn;
+    unsigned char *addr = (unsigned char *)malloc(5);
     unsigned char seq;
     unsigned char *DA;
     unsigned char *DT;

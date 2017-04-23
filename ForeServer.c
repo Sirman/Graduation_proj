@@ -14,9 +14,10 @@ static void message_pack(Message *msg,unsigned char *addr,unsigned char ctl,unsi
     time_t timep;
     struct tm *p = gmtime(&timep);
     msg->head.start_begin = START; 
-    msg->head.addr = addr;
+    *msg->head.len_pos1 = *msg->head.len_pos2 = (unsigned char)sizeof(msg)-8;
     msg->head.start_end = START; 
     msg->ctl = ctl; 
+    msg->addr = addr;
     msg->afn = REPT; 
     msg->seq = pfc&0x0F;    // how to generate seq
     msg->DA = da;
